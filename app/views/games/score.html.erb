@@ -1,0 +1,9 @@
+<h1>Games#score</h1>
+<p>Grid: <%= params[:grid] %></p>
+<p>Your guess: <%= params[:guess] %></p>
+<p>
+Score: <%= @results[:score] %>, 
+<%= @results[:message] %>  
+</p>
+
+<%= link_to 'Play again?', new_path %>
